@@ -1,0 +1,86 @@
+.courses,
+.courseAdd,
+.courseEdit,
+.courseDetail {
+  background: #edf1ef;
+  min-height: 100vh;
+}
+.courses .MuiCard-root,
+.courseAdd .MuiCard-root,
+.courseEdit .MuiCard-root,
+.courseDetail .MuiCard-root {
+  margin: 20px;
+  padding: 20px;
+}
+
+.course__inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.course__inputGroup .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.course__table {
+  overflow: scroll;
+}
+.course__table::-webkit-scrollbar {
+  display: none;
+}
+/* mega table */
+.megatable__body {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+/* new css */
+.courseAdd__avatarGroup,
+.courseEdit__avatarGroup {
+  display: flex;
+  margin-bottom: 20px;
+}
+.courseAdd__avatarGroup .MuiCard-root,
+.courseEdit__avatarGroup .MuiCard-root {
+  margin: 5px;
+  padding: 5px;
+}
+.courseAdd__avatar,
+.courseEdit__avatar {
+  width: 100px !important;
+  height: 100px !important;
+  /* padding: 5px; */
+}
+.courseAdd__avatarGroupCard,
+.courseEdit__avatarGroupCard {
+  position: relative !important;
+}
+.courseAdd__deleteIcon,
+.courseEdit__deleteIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 40px !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(211, 79, 79);
+  cursor: pointer;
+  padding: 35px;
+  opacity: 0;
+}
+.courseAdd__deleteIconShow,
+.courseEdit__deleteIconShow {
+  opacity: 1;
+}
+.product__inputFile {
+  display: none;
+}
+.courseAdd__inputLabel,
+.courseEdit__inputLabel {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.courseAdd__inputLabel .MuiSvgIcon-root,
+.courseEdit__inputLabel .MuiSvgIcon-root {
+  font-size: 40px !important;
+}
+

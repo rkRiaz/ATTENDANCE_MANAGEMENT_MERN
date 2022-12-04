@@ -1,0 +1,45 @@
+.topbar{
+    background: #fafafa;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px ;
+}
+.topbar__icons .MuiSvgIcon-root{
+    border-radius: 50%;
+    padding: 8px;
+    background: rgb(241, 241, 241);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.topbar__iconsBurgerIcon{
+    background: rgb(66, 66, 66) !important;
+    color: white;
+}
+.topbar__logo{
+    display: none;
+}
+.topbar__logo .MuiSvgIcon-root{
+    font-size: 60px;
+}
+@media screen and (max-width: 1024px) {
+    .topbar{
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+    }
+    .topbar__logo{
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        color: rgb(66, 66, 66) !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .topbar{
+        flex-direction: column;
+    }
+    .topbar__icons{
+        margin-top: 10px;
+    }
+}

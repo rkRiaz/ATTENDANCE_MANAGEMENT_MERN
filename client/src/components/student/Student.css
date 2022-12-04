@@ -1,0 +1,85 @@
+.students,
+.studentAdd,
+.studentEdit,
+.studentDetail {
+  background: #edf1ef;
+  min-height: 100vh;
+}
+.students .MuiCard-root,
+.studentAdd .MuiCard-root,
+.studentEdit .MuiCard-root,
+.studentDetail .MuiCard-root {
+  margin: 20px;
+  padding: 20px;
+}
+
+.student__inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.student__inputGroup .MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.students__table {
+  overflow: scroll;
+}
+.students__table::-webkit-scrollbar {
+  display: none;
+}
+/* mega table */
+.megatable__body {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+/* new css */
+.studentAdd__avatarGroup,
+.studentEdit__avatarGroup {
+  display: flex;
+  margin-bottom: 20px;
+}
+.studentAdd__avatarGroup .MuiCard-root,
+.studentEdit__avatarGroup .MuiCard-root {
+  margin: 5px;
+  padding: 5px;
+}
+.studentAdd__avatar,
+.studentEdit__avatar {
+  width: 100px !important;
+  height: 100px !important;
+  /* padding: 5px; */
+}
+.studentAdd__avatarGroupCard,
+.studentEdit__avatarGroupCard {
+  position: relative !important;
+}
+.studentAdd__deleteIcon,
+.studentEdit__deleteIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 40px !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(211, 79, 79);
+  cursor: pointer;
+  padding: 35px;
+  opacity: 0;
+}
+.studentAdd__deleteIconShow,
+.studentEdit__deleteIconShow {
+  opacity: 1;
+}
+.product__inputFile {
+  display: none;
+}
+.studentAdd__inputLabel,
+.studentEdit__inputLabel {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+.studentAdd__inputLabel .MuiSvgIcon-root,
+.studentEdit__inputLabel .MuiSvgIcon-root {
+  font-size: 40px !important;
+}

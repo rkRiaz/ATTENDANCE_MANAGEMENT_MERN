@@ -1,0 +1,30 @@
+.headline{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background: rgb(78, 78, 78);
+    color: white;
+    text-transform: capitalize;
+}
+.headline__left{
+    font-size: 25px;
+}
+.headline__right{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #E57498;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.headline__right a{
+    color: white;
+}
+.headline__right .MuiSvgIcon-root{
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    .headline__right{
+        display: none;
+    }
+}

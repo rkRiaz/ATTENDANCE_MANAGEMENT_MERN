@@ -1,0 +1,11 @@
+
+.app__body{
+    display: flex;
+}
+.app__bodyRight{
+    flex: 1;
+}
+
+
+
+

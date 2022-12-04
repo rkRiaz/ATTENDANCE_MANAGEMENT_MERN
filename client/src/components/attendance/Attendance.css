@@ -1,0 +1,110 @@
+.attendances,
+.attendanceAdd,
+.attendanceEdit,
+.attendanceDetail 
+{
+    background: #edf1ef;
+    min-height: 100vh;
+}
+.attendances .MuiCard-root,
+.attendanceAdd .MuiCard-root,
+.attendanceEdit .MuiCard-root,
+.attendanceDetail .MuiCard-root
+{
+    margin: 20px;
+    padding: 20px;
+}
+
+.attendance__inputGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.attendance__inputGroup .MuiTextField-root{
+    margin-bottom: 20px;
+}
+
+
+.attendances__table{
+    overflow: scroll;
+}
+.attendances__table::-webkit-scrollbar{
+    display: none;
+}
+/* mega table */
+.megatable__body{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.attendances__tableBody .MuiTableRow-root:nth-child(1) {
+	background-color: #f3f2f8;
+}
+
+/* new css */
+.attendanceAdd__avatarGroup,
+.attendanceEdit__avatarGroup
+{
+	display: flex;
+	margin-bottom: 20px;
+}
+.attendanceAdd__avatarGroup .MuiCard-root,
+.attendanceEdit__avatarGroup .MuiCard-root
+{
+    margin: 5px;
+    padding: 5px;
+}
+.attendanceAdd__avatar,
+.attendanceEdit__avatar
+{
+	width: 100px !important;
+	height: 100px !important;
+	/* padding: 5px; */
+}
+.attendanceAdd__avatarGroupCard,
+.attendanceEdit__avatarGroupCard
+{
+	position: relative !important;
+	
+}
+.attendanceAdd__deleteIcon,
+.attendanceEdit__deleteIcon
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 40px !important;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgb(211, 79, 79);
+	cursor: pointer;
+	padding: 35px;
+	opacity: 0;
+}
+.attendanceAdd__deleteIconShow,
+.attendanceEdit__deleteIconShow
+{
+	opacity: 1;
+}
+.product__inputFile{
+	display: none;
+}
+.attendanceAdd__inputLabel,
+.attendanceEdit__inputLabel
+{
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+}
+.attendanceAdd__inputLabel .MuiSvgIcon-root,
+.attendanceEdit__inputLabel .MuiSvgIcon-root {
+	font-size: 40px !important;
+}
+
+
+
+
+
+
+
+
+
+
+

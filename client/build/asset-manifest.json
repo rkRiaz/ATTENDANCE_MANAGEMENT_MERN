@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ba51d826.chunk.css",
+    "main.js": "/static/js/main.d17c793a.chunk.js",
+    "main.js.map": "/static/js/main.d17c793a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b225a3c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b225a3c8.js.map",
+    "static/js/2.7ccd1113.chunk.js": "/static/js/2.7ccd1113.chunk.js",
+    "static/js/2.7ccd1113.chunk.js.map": "/static/js/2.7ccd1113.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5e2220748394bed4bf70e8495ea3d744.js": "/precache-manifest.5e2220748394bed4bf70e8495ea3d744.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ba51d826.chunk.css.map": "/static/css/main.ba51d826.chunk.css.map",
+    "static/js/2.7ccd1113.chunk.js.LICENSE.txt": "/static/js/2.7ccd1113.chunk.js.LICENSE.txt",
+    "static/media/TeacherAdd.css": "/static/media/login_img.9f8e9a91.jpg",
+    "static/media/user.png": "/static/media/user.f6450ef0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b225a3c8.js",
+    "static/js/2.7ccd1113.chunk.js",
+    "static/css/main.ba51d826.chunk.css",
+    "static/js/main.d17c793a.chunk.js"
+  ]
+}
